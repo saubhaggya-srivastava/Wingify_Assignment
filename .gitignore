@@ -8,8 +8,8 @@ __pycache__/
 *.pyd
 .Python
 
-# Test files
-test_*.py
+# Test files - Keep test files for submission
+# test_*.py
 
 # IDE files
 .vscode/
@@ -25,3 +25,20 @@ Thumbs.db
 
 # Data files (may contain sensitive documents)
 data/financial_document_*.pdf
+
+# Database files
+*.db
+*.sqlite3
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Logs
+*.log
+logs/
+
+# Virtual environment
+venv/
+env/
+.venv/
